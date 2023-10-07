@@ -7,7 +7,7 @@ const Locations = () => {
 
     const [locations, setLocations] = useState([])
     const [venueNames, setVenueNames] = useState({venue1: 'Agganis Arena', venue2: 'Barclays Center', venue3: 'Sphere', venue4: 'Verti Music Hall'})
-
+    
     useEffect(() => {
         (async () => {
             try {
