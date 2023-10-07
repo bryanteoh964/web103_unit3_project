@@ -11,7 +11,7 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      'picocss': path.resolve(__dirname, '../node_modules/@picocss/pico/css')
+      'picocss': path.resolve(__dirname, '../client/node_modules/@picocss/pico/css')
     }
   },
   server: {
