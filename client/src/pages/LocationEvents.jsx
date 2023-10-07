@@ -6,6 +6,20 @@ const LocationEvents = ({index}) => {
     const [location, setLocation] = useState([])
     const [events, setEvents] = useState([])
 
+    useEffect(() => {
+        (async () => {
+            try {
+                const locationsData = await LocationsAPI.getAllLocations()
+                setLocation(locationsData[index])
+                // const eventsData = await EventsAPI.getEventsByLocation(locationsData[index].name)
+                // setEvents(eventsData)
+            }
+            catch (error) {
+                throw error
+            }
+        }) ()
+    }, [])
+
     return (
         <div className='location-events'>
             <header>

@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react'
-// import LocationsAPI from '../services/LocationsAPI'
+import LocationsAPI from '../services/LocationsAPI'
 import unitygrid from '../assets/unitygrid.jpg'
 import '../css/Locations.css'
 
 const Locations = () => {
 
     const [locations, setLocations] = useState([])
-    const [venueNames, setVenueNames] = useState({venue1: 'Agganis Arena', venue2: 'Barclays Center', venue3: 'Sphere', venue4: 'Verti Music Hall'})
+    const [venueNames, setVenueNames] = useState({venue1: '', venue2: '', venue3: '', venue4: ''})
     
     useEffect(() => {
         (async () => {
