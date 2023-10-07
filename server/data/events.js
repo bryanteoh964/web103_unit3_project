@@ -1,13 +1,68 @@
-const giftData = [
+const eventData = [
     {
         "id": 1,
-        "tourTitle": "Hope Tour",
-        "eventLocation": "Agganis Arena, Boston, MA",
-        "artist":"NF",
+        "title": "Hope Tour - NF",
+        "date": "2023-07-21",
+        "time": "20:00:00",
         "image":"https://tinyurl.com/39xc9h6y",
-        "date":"2023-07-21T20:00:00"
+        "location_id": 1
+    },
+    {
+        "id": 2,
+        "title": "~how i'm feeling~ Tour - Lauv",
+        "date": "2023-07-28",
+        "time": "20:00:00",
+        "image":"https://tinyurl.com/lauv-image", // Placeholder
+        "location_id": 1
+    },
+    {
+        "id": 3,
+        "title": "After Hours Tour - The Weeknd",
+        "date": "2023-08-05",
+        "time": "20:30:00",
+        "image":"https://tinyurl.com/weeknd-image", // Placeholder
+        "location_id": 2
+    },
+    {
+        "id": 4,
+        "title": "When We All Fall Asleep, Where Do We Go? Tour - Billie Eilish",
+        "date": "2023-08-12",
+        "time": "20:30:00",
+        "image":"https://tinyurl.com/billie-image", // Placeholder
+        "location_id": 2
+    },
+    {
+        "id": 5,
+        "title": "Painkiller Tour - Ruel",
+        "date": "2023-08-19",
+        "time": "20:00:00",
+        "image":"https://tinyurl.com/ruel-image", // Placeholder
+        "location_id": 3
+    },
+    {
+        "id": 6,
+        "title": "Rain World Tour - Dominic Fike",
+        "date": "2023-08-26",
+        "time": "20:00:00",
+        "image":"https://tinyurl.com/dominic-image", // Placeholder
+        "location_id": 3
+    },
+    {
+        "id": 7,
+        "title": "A Place We Knew Tour - Dean Lewis",
+        "date": "2023-09-02",
+        "time": "19:30:00",
+        "image":"https://tinyurl.com/deanlewis-image", // Placeholder
+        "location_id": 4
+    },
+    {
+        "id": 8,
+        "title": "Beautiful Noise Tour - Dermot Kennedy", // Using Dermot Kennedy as the "similar artist"
+        "date": "2023-09-09",
+        "time": "19:30:00",
+        "image":"https://tinyurl.com/dermot-image", // Placeholder
+        "location_id": 4
     }
-  ]
-  
-  export default giftData
-  
+]
+
+export default eventData;
