@@ -11,6 +11,12 @@ const findAll = (platform) => {
     }
 }
 
+const findOne = (id) => {
+  const query = 'SELECT * FROM locations WHERE id = $1'
+  return pool.query(query, [id])
+}
+
 export default {
-    findAll
+    findAll,
+    findOne
 }

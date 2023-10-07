@@ -15,8 +15,14 @@ const findAll = (platform) => {
     const query = 'SELECT * FROM events WHERE id = $1'
     return pool.query(query, [id])
   }
+
+  const findByLocation = (location) => {
+    const query = 'SELECT * FROM events WHERE location_id = $1'
+    return pool.query(query, [location])
+  }
   
   export default {
     findAll,
-    findOne
+    findOne,
+    findByLocation
   }

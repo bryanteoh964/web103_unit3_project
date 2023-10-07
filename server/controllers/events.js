@@ -25,7 +25,7 @@ const getEvents = async (req, res) => {
   // get events by platform from the database
   const getEventsByLocation = async (req, res) => {
     try {
-      const results = await Event.findAll(req.params.platform)
+      const results = await Event.findByLocation(req.params.location)
       res.status(200).json(results.rows)
     }
     catch (error) {

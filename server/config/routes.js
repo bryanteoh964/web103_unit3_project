@@ -12,5 +12,6 @@ router.get('/events/location/:location', EventsController.getEventsByLocation)
 
 // routes to get all locations
 router.get('/locations', LocationsController.getLocations)
+router.get('/locations/:id', LocationsController.getLocationsById)
 
 export default router

@@ -4,7 +4,7 @@ const eventData = [
         "title": "Hope Tour - NF",
         "date": "2023-07-21",
         "time": "20:00:00",
-        "image":"https://tinyurl.com/39xc9h6y",
+        "image":"https://tinyurl.com/4ydrutwr",
         "location_id": 1
     },
     {
@@ -12,7 +12,7 @@ const eventData = [
         "title": "~how i'm feeling~ Tour - Lauv",
         "date": "2023-07-28",
         "time": "20:00:00",
-        "image":"https://tinyurl.com/lauv-image", // Placeholder
+        "image":"https://tinyurl.com/yckj5rbj",
         "location_id": 1
     },
     {
@@ -20,7 +20,7 @@ const eventData = [
         "title": "After Hours Tour - The Weeknd",
         "date": "2023-08-05",
         "time": "20:30:00",
-        "image":"https://tinyurl.com/weeknd-image", // Placeholder
+        "image":"https://tinyurl.com/2nyf9fdb",
         "location_id": 2
     },
     {
@@ -28,7 +28,7 @@ const eventData = [
         "title": "When We All Fall Asleep, Where Do We Go? Tour - Billie Eilish",
         "date": "2023-08-12",
         "time": "20:30:00",
-        "image":"https://tinyurl.com/billie-image", // Placeholder
+        "image":"https://tinyurl.com/bdz93d2f",
         "location_id": 2
     },
     {
@@ -36,7 +36,7 @@ const eventData = [
         "title": "Painkiller Tour - Ruel",
         "date": "2023-08-19",
         "time": "20:00:00",
-        "image":"https://tinyurl.com/ruel-image", // Placeholder
+        "image":"https://tinyurl.com/2x3crp2c",
         "location_id": 3
     },
     {
@@ -44,7 +44,7 @@ const eventData = [
         "title": "Rain World Tour - Dominic Fike",
         "date": "2023-08-26",
         "time": "20:00:00",
-        "image":"https://tinyurl.com/dominic-image", // Placeholder
+        "image":"https://tinyurl.com/5n7t5z36",
         "location_id": 3
     },
     {
@@ -52,15 +52,15 @@ const eventData = [
         "title": "A Place We Knew Tour - Dean Lewis",
         "date": "2023-09-02",
         "time": "19:30:00",
-        "image":"https://tinyurl.com/deanlewis-image", // Placeholder
+        "image":"https://tinyurl.com/3sypuaam",
         "location_id": 4
     },
     {
         "id": 8,
-        "title": "Beautiful Noise Tour - Dermot Kennedy", // Using Dermot Kennedy as the "similar artist"
+        "title": "Beautiful Noise Tour - Dermot Kennedy",
         "date": "2023-09-09",
         "time": "19:30:00",
-        "image":"https://tinyurl.com/dermot-image", // Placeholder
+        "image":"https://tinyurl.com/uesavpw9",
         "location_id": 4
     }
 ]

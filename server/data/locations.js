@@ -6,7 +6,7 @@ const locationData = [
         "city": "Boston",
         "state": "MA",
         "zip": "02215",
-        "image": "https://tinyurl.com/agganis-image" // This is a placeholder link; you'll want to replace it with an actual link.
+        "image": "https://tinyurl.com/mx4fesr9"
     },
     {
         "id": 2,
@@ -15,16 +15,16 @@ const locationData = [
         "city": "Brooklyn",
         "state": "NY",
         "zip": "11217",
-        "image": "https://tinyurl.com/barclays-image" // Placeholder link.
+        "image": "https://tinyurl.com/5cc4h7jf"
     },
     {
         "id": 3,
         "name": "Sphere",
-        "address": "123 Sphere Blvd", // Placeholder address.
+        "address": "123 Sphere Blvd",
         "city": "Las Vegas",
         "state": "NV",
         "zip": "89109",
-        "image": "https://tinyurl.com/sphere-image" // Placeholder link.
+        "image": "https://tinyurl.com/9fdu8puf"
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@ const locationData = [
         "city": "Berlin",
         "state": "BE",
         "zip": "10243",
-        "image": "https://tinyurl.com/verti-image" // Placeholder link.
+        "image": "https://tinyurl.com/bxnbsxxp" // Placeholder link.
     }
 ]
 
